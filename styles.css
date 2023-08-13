@@ -1,1 +1,40 @@
 /* your code */
+thead{
+	background-color:#215a8e;
+	color:white;
+	font-family:sans-serif;
+    font-size: .98em;
+	border-radius:10px;
+	text-align:left;
+	
+}
+table{
+	border-spacing:0;
+	width:650px;
+	border:.1px solid transparent;
+	border_radius:8px;
+    font-family:sans-serif;
+	border-radius:10px;
+	font-size:.55em;
+}
+.top-left{
+	border-top-left-radius:9px;
+}
+.top-right{
+	border-top-right-radius:9px;
+}
+.bottom-left{
+	border-bottom-right-radius:9px;
+}
+.bottom-right{
+	border-bottom-left-radius:9px;
+}
+th{
+	padding:10px 16px 10px 10px ;
+}
+td{
+	padding:10px 16px 10px 10px ;
+}
+tr:nth-child(even){
+	background-color:#dddddd;
+}
